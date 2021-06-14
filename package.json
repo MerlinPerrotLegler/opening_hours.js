@@ -24,7 +24,8 @@
     "CHANGELOG.rst",
     "LICENSES/",
     "site/js/",
-    "src/locales/core.js"
+    "src/locales/core.js",
+    "types/index.d.ts"
   ],
   "directories": {
     "doc": "./docs/"
@@ -39,7 +40,6 @@
     "benchmark": "make benchmark",
     "interactive_testing": "make run-interactive_testing",
     "regex_search": "make run-regex_search",
-    "postinstall": "husky install",
     "prepublishOnly": "pinst --disable",
     "postpublish": "pinst --enable",
     "readme": "doctoc README.md --title \"## Table of Contents\"",
